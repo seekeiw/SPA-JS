@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.header-links-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-link {
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.header-link:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+#app {
+    padding: 2rem;
+}
+
+.title {
+    color: #333;
+}
+
+.view {
+    display: none;
+}
+
+.view.active {
+    display: block;
+}
